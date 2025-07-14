@@ -19,7 +19,7 @@ jobs:
           fetch-depth: 0 # Required for visual comparison
 
       - name: GUI-Based Testing Code Review
-        uses: DigitalProductInnovationAndDevelopment/Code-Reviews-of-GUI-Tests@v1.0.0
+        uses: DigitalProductInnovationAndDevelopment/Code-Reviews-of-GUI-Tests@v1.0.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           enable-visual-comparison: "true"
